@@ -3,24 +3,30 @@
 ---
 
 ### Introduction
-My name is Nguyen Bui, and I’m a recent software engineering graduate from San Jose State University. I am currently working as a software engineering intern at OmniPreSense. At the moment, I am most comfortable in developing Android apps. With that said, I am open to learning new technologies as I am not afraid to try out new things. Down below is a description of what projects I am working on right now.
+My name is Nguyen Bui, and I’m a recent software engineering graduate from San Jose State University. I am currently working as a Software Engineering Intern at OmniPreSense. I am most experienced in developing Android apps, but I am open to learning new technologies and not afraid to try new things.
 
 ### Current Projects
 
 #### [Speed Reporting Radar Gun](https://play.google.com/store/apps/details?id=com.omnipresense.radarApp&hl=en_US){:target="_blank"}
 
-This is an Android app that turns your device into a radar gun. What you need to do is connect your device to any OPS board using the OTG cable.
+This is an Android app that turns any mobile device into a radar gun. Users can connect their devices to any OPS board using the OTG cable to track a car's speed.
 
-Here is a list of features developed by me:
- - Display the object speed in real-time.
- - Capture photos when the object tripped over the speed limit.
- - Overlay photos with information such as date/time, the object's speed, lat/lng, address.
+Main features:
+ - Displays the car's speed in real-time.
+ - Captures photos when the car tripped over the speed limit.
+ - Overlays photos with information such as date/time, the car's speed, lat/lng, address.
 
-Worth mentioning app performances:
- - Gives users a smooth experience by utilizing asynchronous threading.
- - Able to get the user's location by utilizing Google Maps API.
- - The camera feature is created as a service. Therefore, it can capture photos while the app is running in the background.
- - The app is able to minimize itself. This will let the user know where to point their device while the app is in the background.
+Notable performance specifications:
+ - Utilizes asynchronous threading to give users a smooth experience.
+ - Pinpoints user's location by utilizing Google Maps API.
+ - Captures photos while the app is running in the background.
+ - Provides a mini-camera view.
+
+Technologies:
+  - Google Maps API
+  - 
+
+Screen shots:
 
 <img src="images/Speed_Reporting_Radar_Gun/MainScreen.png?raw=true"/>
 <img src="images/Speed_Reporting_Radar_Gun/ConfigScreen.png?raw=true"/>
@@ -28,17 +34,17 @@ Worth mentioning app performances:
 ---
 [OPS-Terminal](/pdf/sample_presentation.pdf)
 
-This is an Android app that turns your device into a radar gun. What you need to do is connect your device to any OPS board using the OTG cable.
+This is an Android app that acts as a terminal for the users to configure theirs OPS board. The app communicates with the OPS through MQTT protocol. In order to configure the OPS board, the user needs to pair them up using BLE. After both devices are paired (the Android device and the OPS board), the user then can change what WiFi network the OPS board can connect to 
 
 Here is a list of features developed by me:
- - Display the object speed in real-time.
+ - BLE commnunication between the 
  - Capture photos when the object tripped over the speed limit.
  - Overlay photos with information such as date/time, the object's speed, lat/lng, address.
 
 Worth mentioning app performances:
  - Gives users a smooth experience by utilizing asynchronous threading.
  - Able to get the user's location by utilizing Google Maps API.
- - The camera feature is created as a service. Therefore, it can capture photos while the app is running in the background.
+ - Capture photos while the app is running in the background.
  - The app is able to minimize itself. This will let the user know where to point their device while the app is in the background.
 
 

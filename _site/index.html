@@ -10,16 +10,16 @@
 <meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="Portfolio" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Hello, My name is Nguyen Bui and I am a software engineering intern at OmniPreSense. Welcome to my personal website. View My LinkedIn Profile" />
-<meta property="og:description" content="Hello, My name is Nguyen Bui and I am a software engineering intern at OmniPreSense. Welcome to my personal website. View My LinkedIn Profile" />
+<meta name="description" content="Hello, My name is Nguyen Bui, and I am a Software Engineering Intern at OmniPreSense. Welcome to my personal website. View My LinkedIn Profile" />
+<meta property="og:description" content="Hello, My name is Nguyen Bui, and I am a Software Engineering Intern at OmniPreSense. Welcome to my personal website. View My LinkedIn Profile" />
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Nguyen Bui" />
 <script type="application/ld+json">
-{"@type":"WebSite","url":"http://localhost:4000/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/profile_photo.png?raw=true"}},"headline":"Portfolio","description":"Hello, My name is Nguyen Bui and I am a software engineering intern at OmniPreSense. Welcome to my personal website. View My LinkedIn Profile","name":"Nguyen Bui","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/","@type":"WebSite","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/images/profile_photo.png?raw=true"}},"headline":"Portfolio","description":"Hello, My name is Nguyen Bui, and I am a Software Engineering Intern at OmniPreSense. Welcome to my personal website. View My LinkedIn Profile","name":"Nguyen Bui","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=a95abfdec022dfb21c13383232e5d06480c5da6f">
+    <link rel="stylesheet" href="/assets/css/style.css?v=6d6d79872a13c2b9ca7ec89864a5b5f2dcb1d82b">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -33,7 +33,7 @@
           <img src="/images/profile_photo.png?raw=true" alt="Logo" />
         
 
-        <p><p> Hello, <p> My name is Nguyen Bui and I am a software engineering intern at OmniPreSense. <p> Welcome to my personal website. <br> <br> <a href="https://www.linkedin.com/in/nguyen-bui-952b95a4/">View My LinkedIn Profile</a> 
+        <p><p> Hello, <p> My name is Nguyen Bui, and I am a Software Engineering Intern at OmniPreSense. <p> Welcome to my personal website. <br> <br> <a href="https://www.linkedin.com/in/nguyen-bui-952b95a4/">View My LinkedIn Profile</a> 
 </p>
 
         
@@ -51,28 +51,36 @@
 <hr />
 
 <h3 id="introduction">Introduction</h3>
-<p>My name is Nguyen Bui, and I’m a recent software engineering graduate from San Jose State University. I am currently working as a software engineering intern at OmniPreSense. At the moment, I am most comfortable in developing Android apps. With that said, I am open to learning new technologies as I am not afraid to try out new things. Down below is a description of what projects I am working on right now.</p>
+<p>My name is Nguyen Bui, and I’m a recent software engineering graduate from San Jose State University. I am currently working as a Software Engineering Intern at OmniPreSense. I am most experienced in developing Android apps, but I am open to learning new technologies and not afraid to try new things.</p>
 
 <h3 id="current-projects">Current Projects</h3>
 
 <h4 id="speed-reporting-radar-gun"><a href="https://play.google.com/store/apps/details?id=com.omnipresense.radarApp&amp;hl=en_US" target="_blank">Speed Reporting Radar Gun</a></h4>
 
-<p>This is an Android app that turns your device into a radar gun. What you need to do is connect your device to any OPS board using the OTG cable.</p>
+<p>This is an Android app that turns any mobile device into a radar gun. Users can connect their devices to any OPS board using the OTG cable to track a car’s speed.</p>
 
-<p>Here is a list of features developed by me:</p>
+<p>Main features:</p>
 <ul>
-  <li>Display the object speed in real-time.</li>
-  <li>Capture photos when the object tripped over the speed limit.</li>
-  <li>Overlay photos with information such as date/time, the object’s speed, lat/lng, address.</li>
+  <li>Displays the car’s speed in real-time.</li>
+  <li>Captures photos when the car tripped over the speed limit.</li>
+  <li>Overlays photos with information such as date/time, the car’s speed, lat/lng, address.</li>
 </ul>
 
-<p>Worth mentioning app performances:</p>
+<p>Notable performance specifications:</p>
 <ul>
-  <li>Gives users a smooth experience by utilizing asynchronous threading.</li>
-  <li>Able to get the user’s location by utilizing Google Maps API.</li>
-  <li>The camera feature is created as a service. Therefore, it can capture photos while the app is running in the background.</li>
-  <li>The app is able to minimize itself. This will let the user know where to point their device while the app is in the background.</li>
+  <li>Utilizes asynchronous threading to give users a smooth experience.</li>
+  <li>Pinpoints user’s location by utilizing Google Maps API.</li>
+  <li>Captures photos while the app is running in the background.</li>
+  <li>Provides a mini-camera view.</li>
 </ul>
+
+<p>Technologies:</p>
+<ul>
+  <li>Google Maps API</li>
+  <li></li>
+</ul>
+
+<p>Screen shots:</p>
 
 <p><img src="images/Speed_Reporting_Radar_Gun/MainScreen.png?raw=true" />
 <img src="images/Speed_Reporting_Radar_Gun/ConfigScreen.png?raw=true" /></p>
@@ -80,11 +88,11 @@
 <hr />
 <p><a href="/pdf/sample_presentation.pdf">OPS-Terminal</a></p>
 
-<p>This is an Android app that turns your device into a radar gun. What you need to do is connect your device to any OPS board using the OTG cable.</p>
+<p>This is an Android app that acts as a terminal for the users to configure theirs OPS board. The app communicates with the OPS through MQTT protocol. In order to configure the OPS board, the user needs to pair them up using BLE. After both devices are paired (the Android device and the OPS board), the user then can change what WiFi network the OPS board can connect to</p>
 
 <p>Here is a list of features developed by me:</p>
 <ul>
-  <li>Display the object speed in real-time.</li>
+  <li>BLE commnunication between the</li>
   <li>Capture photos when the object tripped over the speed limit.</li>
   <li>Overlay photos with information such as date/time, the object’s speed, lat/lng, address.</li>
 </ul>
@@ -93,7 +101,7 @@
 <ul>
   <li>Gives users a smooth experience by utilizing asynchronous threading.</li>
   <li>Able to get the user’s location by utilizing Google Maps API.</li>
-  <li>The camera feature is created as a service. Therefore, it can capture photos while the app is running in the background.</li>
+  <li>Capture photos while the app is running in the background.</li>
   <li>The app is able to minimize itself. This will let the user know where to point their device while the app is in the background.</li>
 </ul>
 
