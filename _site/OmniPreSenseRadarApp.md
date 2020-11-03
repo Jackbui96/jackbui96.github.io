@@ -28,6 +28,7 @@ The app can also take photos of cars that are speeding, then overlaying photos w
  - Fotoapparat (for camera operations)
  - Google Material Design
  - JavaMail
+ - rxJava
 
 ## Demo
 <iframe width="560" height="315" src="https://www.youtube.com/embed/d59eEPpTZIU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -35,7 +36,7 @@ The app can also take photos of cars that are speeding, then overlaying photos w
 ## Screen shots:
 
 {% include image.html url="images/SpeedReportingRadarGun/MainScreen.png" description="Speed Recorded with Camera View" %}
+<br>
+{% include image.html url="images/SpeedReportingRadarGun/SecondScreen.png" description="Configurations for OPS Board" %}
 
-{% include image.html url="images/SpeedReportingRadarGun/SecondScreen.png" description="Configurations for Ops Board" %}
-
-[Back](/index)
+[Back](/)
