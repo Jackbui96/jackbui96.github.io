@@ -3,7 +3,9 @@
 ---
 
 ## Introduction
-My name is Nguyen Bui, and I’m a recent software engineering graduate from San Jose State University. I am currently working as a Software Engineering Intern at OmniPreSense. I am most experienced in developing Android apps, but I am open to learning new technologies and not afraid to try new things.
+Hello and welcome,
+
+I am a passionate Software Engineer with 5 years of experience developing mobile apps. I always aim to deliver products that can be scalable and easy to maintain by applying SOLID principles. I am quick to learn new technologies and can tackle any problems delicately with minimal help or supervision. I am currently open to new opportunities to expand my knowledge and gain new hands-on experience.
 
 You can discover my projects by following the link.
 
@@ -16,7 +18,7 @@ You can discover my projects by following the link.
 
 ---
 
-### [OpsTerminal - OmniPreSense](/OmniPreSenseOpsTerminal)
+### [WiFiRadarSensor - OmniPreSense](/OmniPreSenseOpsTerminal)
 [<img src="images/OpsTerminal/MainScreenPreview.png?raw=true"/>](/OmniPreSenseOpsTerminal)
 
 ---
@@ -31,46 +33,41 @@ You can discover my projects by following the link.
 ### Languages
 
 - Java &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [4/5]
-- Python &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [3/5]
+- Swift &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [3/5]
+- Kotlin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [3/5]
+- Python &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2/5]
 - PHP &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [2/5]
 - C++ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [1/5]
 - HTML/CSS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [1/5]
 - TypeScript/JavaScript &nbsp;&nbsp; [1/5]
 - MySQL &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [1/5]
 
-### Platfrom
-- Android
-- Ubuntu
-- IoT
-- Firebase
-- AWS
+### Tools
+- Android Studio
+- XCode
+- GitHub
+- Jenkins
+- Postman
+- Ubuntu/Linux
+- Wireshark  
 - Espressif
 
-### APIs
-- Twitter
-- Google Maps
-- Google ML Kit
-- Retrofit
-- OkHttp
-- Signpost
-- Paho MQTT Android API
+### Programming Skills/Knowledge
+- Abstract Factory, Dependency Injection, Prototype, Singleton, Proxy, Adapter, Observer, OOD
+- Algorithm and Data Structure, Runtime Complexity Analysis, SOLID Principle, Reactive Programming
+- VIPER, MVVM, MVC, MVP, Coordinator
 
 ### Others
-- Android SDK
-- REST
-- Git
-- OAuth1.0
+- RESTful API, JSON, Retrofit, OkHttp, Alamofire, MQTT, HTTP, Websocket, TCP, Bluetooth
+- Android SDK, Google Maps, Google Place, CoreLocation, Android Room, Android Lifecycle, Android Data and File Storage, Firebase, Push Notification, Cloud Messaging, Cloud Infrastructure
+- Cocoapods, Gradle, Maven
 - Relational/Non-Relational Database
-- Multi-threading/AsyncTask
-- Websocket
-- MQTT
-- Angular
-- TensorFlow
+- Multi-threading,AsyncTask, Concurrency, Mutex and Semaphore Locks, Finite-state Machine
+- Agile, Sprint
 
 ---
 
 ## Skills that I am currently learning
-- rxjava
 - Machine Learning
 
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
